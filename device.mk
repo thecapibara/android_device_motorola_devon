@@ -70,3 +70,5 @@ PRODUCT_COPY_FILES += \
 
 # Get non-open-source specific aspects
 $(call inherit-product, vendor/motorola/devon/devon-vendor.mk)
+
+TARGET_BOARD_PLATFORM := qcom
