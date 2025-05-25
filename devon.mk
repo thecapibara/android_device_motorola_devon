@@ -19,7 +19,7 @@ TARGET_BOOT_ANIMATION_RES := 1080
 CUSTOM_MAINTAINER := JustGL
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := 2by2_devon
+PRODUCT_NAME := devon
 PRODUCT_DEVICE := devon
 PRODUCT_BRAND := motorola
 PRODUCT_MODEL := moto g32
