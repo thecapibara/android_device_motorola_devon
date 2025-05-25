@@ -10,8 +10,8 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from device
 $(call inherit-product, device/motorola/devon/device.mk)
 
-# Inherit some common LineageOS stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit some common 2by2 stuff.
+$(call inherit-product, vendor/2by2/config/common_full_phone.mk)
 WITH_GMS := true
 TARGET_USES_PICO_GAPPS := true
 TARGET_INCLUDE_EXTRA_APPS := false
