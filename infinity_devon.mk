@@ -13,7 +13,7 @@ $(call inherit-product, device/motorola/devon/device.mk)
 # Inherit some common Infinity stuff.
 $(call inherit-product, vendor/infinity/config/common_full_phone.mk)
 
-INFINITY_BUILD_TYPE := OFFICIAL/UNOFFICIAL (Default: UNOFFICIAL)
+INFINITY_BUILD_TYPE := UNOFFICIAL
 INFINITY_MAINTAINER := "JustGL"
 TARGET_SUPPORTS_BLUR := false
 WITH_GAPPS := true
