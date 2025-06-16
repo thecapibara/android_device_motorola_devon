@@ -4,4 +4,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/infinity_devon.mk
+    $(LOCAL_DIR)/voltage_devon.mk
