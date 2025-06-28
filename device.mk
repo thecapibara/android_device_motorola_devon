@@ -70,3 +70,10 @@ PRODUCT_COPY_FILES += \
 
 # Get non-open-source specific aspects
 $(call inherit-product, vendor/motorola/devon/devon-vendor.mk)
+
+#MotoCamera 4
+TARGET_MOTCAMERA4 := devon
+TARGET_USES_MOTCAMERA4 := true
+
+$(call inherit-product, vendor/motorola/MotCamera4-bengal/motcamera4.mk)
+
