@@ -1,5 +1,5 @@
 #
-# SPDX-FileCopyrightText: 2022-2024 The LineageOS Project
+# SPDX-FileCopyrightText: The LineageOS Project
 # SPDX-License-Identifier: Apache-2.0
 #
 
@@ -30,6 +30,6 @@ PRODUCT_MANUFACTURER := motorola
 PRODUCT_GMS_CLIENTID_BASE := android-motorola
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    BuildDesc="devon_g-user 13 T2SNS33.73-22-3-15 f9ee6-5bd7d release-keys" \
-    BuildFingerprint=motorola/devon_g/devon:13/T2SNS33.73-22-3-15/f9ee6-5bd7d:user/release-keys \
+    BuildDesc="devon_g-user 13 T2SNS33.73-22-3-19 565799-307aa release-keys" \
+    BuildFingerprint=motorola/devon_g/devon:13/T2SNS33.73-22-3-19/565799-307aa:user/release-keys \
     DeviceProduct=devon_g
